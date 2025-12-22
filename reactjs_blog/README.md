@@ -18,9 +18,15 @@ git pull
 git pull origin master/main
 ```
 
-##
+## useful links
 ```sh
+React Developer Tools ==>  https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?pli=1
 
+Redux DEvTools ==> https://chromewebstore.google.com/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
+
+
+React datasheet ==> https://react.dev/
+React datasheet ==> https://tr.react.dev/
 ```
 ##
 ```sh
