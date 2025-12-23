@@ -141,6 +141,14 @@ npm run nodemon
 npm run nodemon_q
 ```
 
+## My own notes
+```sh
+The difference between dependencies and devdependencies: 
+dependencies → Packages the app needs to RUN. indispensable!!!
+devDependencies → Packages the app needs only for DEVELOPMENT.
+
+npm run build  <!-- If we write our own script, we would use: `npm run build` or `npm run start`-->
+```
 
 
 `npm start`
