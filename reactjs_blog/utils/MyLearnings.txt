@@ -1,0 +1,40 @@
+function learn() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default learn
+
+----------------------------------------------------------------
+
+export default function learn(){
+    return (
+        <div>
+        
+        </div>
+    )
+}
+
+
+Aslında ikisi de kullanılabilir!!
+exportu fonction dışında çağırırsak sarmalama yapmış oluruz.
+Higher Order Component (HOC) --- IGNORE --- 
+Yapmış oluruz ve sarmalama işlemi yapacaksak daha kullanışlı olur.
+
+
+///////////////////////////////////////////////////////////////////
+
+
+function ReusabilityToast(
+    position = "bottom-right",
+    duration = 3000,
+    message = "This is a toast message",
+    type = "info",
+    ...props
+) 
+
+Bu koddaki ...props kısmı ise diziyi belirtir. [] böyle kullanılmak zorunda değil.
+Fonksiyona gelen tüm ek argümanları bir dizi (array) olarak toplar.

@@ -1,0 +1,4 @@
+Shift + ALt + O ==> Gereksiz kütüphaneleri(importları) kaldırır.
+Ctrl + K ==> Comment
+Ctrl + K/U ==> UnComment
+Shift + Alt + F ==> Beautify
