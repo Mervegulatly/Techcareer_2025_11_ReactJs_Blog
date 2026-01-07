@@ -9,7 +9,7 @@
  function RouterApp() {
    return (
      <React.Fragment>
-        <HeaderComponent/>
+        <HeaderComponent logo="fa fa-apple"/>
         <MainComponet/>
         <FooterComponent/>
      </React.Fragment>
