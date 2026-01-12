@@ -1,24 +1,40 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Router } from 'react-router-dom';
+// singele comment
+/* 
+JS multiple comment
+*/
 
-//external css
-import './index.css';
+// REACT
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-//external
-import reportWebVitals from './reportWebVitals';
-import ReusabilityToast from 'reusability/ReusabilityToast';
-import Counter from './app/counter';
+// EXTERNAL CSS (proje kendi stillerin)
+import "./index.css";
 
-//Router
-import RouterApp from './RouterApp';
+// I18N INTERNATIONALIZATION
+import "./internationalization/i18nlanguage";
+
+// UTILS
+import reportWebVitals from "./reportWebVitals";
+
+// ROUTER
+import { BrowserRouter } from "react-router-dom";
+
+// REUSABILITY TOAST
+import ResuabilityToast from "./reusability/ReusabilityToast";
+
+// COMPONENTS
+import RouterApp from "./routes/RouterApp";
+
+// BOOTSTRAP CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
     <BrowserRouter> 
-    <ReusabilityToast/>
+    <ResuabilityToast/>
     {/*<App /> */}
     {/*<Counter/>*/}
     <RouterApp/>
