@@ -8,7 +8,7 @@
 FROM node:18
 
 # Bilgilendirme
-LABEL maintainer="hamitmizrak@gmail.com"
+LABEL maintainer="mervegulatly7@gmail.com"
 
 # Çevresel değişkenler
 ENV APP_NAME="Full Stack React JS"
